@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; }
+ul { list-style: none; margin: 0; padding: 0;}
+.edit, .delete { cursor: pointer;}
+.sideBar { margin-top: 25px;}
+.sideBar ul { border:1px solid #ccc; border-bottom: 0;}
+.sideBar ul li { font-size: 18px; color: #000; border-bottom: 1px solid #ccc; padding: 8px 20px; cursor: pointer; }
+.sideBar ul li:hover { background-color: #000; color: #fff;}
+table, tr, th, td { vertical-align: middle;}
+table tr th:not(:first-child) { min-width: 100px;}
